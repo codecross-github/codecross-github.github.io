@@ -98762,17 +98762,17 @@ var $async$$1=A.A(function(b,c){if(b===1)return A.w(c,r)
 while(true)switch(s){case 0:s=a!=null?2:3
 break
 case 2:p=q.a
+o=q.b
 s=p.a.c?4:6
 break
 case 4:$.mU().id=a
 s=7
-return A.t(p.Ap(q.b),$async$$1)
+return A.t(p.Ap(o),$async$$1)
 case 7:s=5
 break
-case 6:o=$.mU()
-if(o.id.a>o.go.a)o.go=a
+case 6:$.mU().go=a
 s=8
-return A.t(p.Ao(q.b),$async$$1)
+return A.t(p.Ao(o),$async$$1)
 case 8:case 5:case 3:return A.x(null,r)}})
 return A.y($async$$1,r)},
 $S:625}
