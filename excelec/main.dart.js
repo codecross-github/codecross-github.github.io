@@ -10431,8 +10431,9 @@ break
 case 1:return A.J(q,r)}})
 return A.K($async$acN,r)},
 aYY(a,b){var s=b>15&&a/0.00075>500,r=a*b
-if(s){s=b===1?10:5
-return r*0.8+s}else return r+(b===1?10:5)},
+if(s){if(b===1)s=10
+else s=b>20?2.5:4
+return r*0.75+s}else return r+(b===1?10:5)},
 aJG:function aJG(){},
 aJH:function aJH(a){this.a=a},
 aJI:function aJI(a,b,c){this.a=a
