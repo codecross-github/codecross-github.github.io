@@ -88201,7 +88201,7 @@ s=A.aA(a,null,s).w.a.a>650?B.RF:B.H5
 return new A.br(new A.aq(r,0,r,0),s,null)}}
 A.Qe.prototype={
 E(a){var s=this,r=null,q=A.aA(a,r,t.w).w.a.a<=570?2:1,p=t.p,o=t.pu
-return A.eP(A.bl(r,A.ne(A.a([A.og(A.bK(A.a([B.lb,A.bl(r,A.bE(A.a([A.M3(r,40,new A.l7("logo.png"))],p),B.o,B.eJ,B.m),B.k,r,r,r,r,r,r,r,r,r,r),B.lb,A.bl(r,A.bE(A.a([A.Qd("dashboard.svg",!1,!1,!1,!1,r,"Dashboard")],p),B.o,B.n,B.m),B.k,r,r,r,r,r,r,r,r,r,r),B.aG,A.LI(new A.agA(s),r,r,r,o),B.aG,A.LI(new A.agB(s),r,r,r,o),B.aG,A.LI(new A.agC(s),r,r,r,o),B.aG,A.LI(new A.agD(s),r,r,r,o),B.c5,B.aG,B.Oa,B.lb],p),B.o,B.n,B.m),!1)],p)),B.k,r,r,r,r,r,r,r,r,r,r),q)}}
+return A.eP(A.bl(r,A.ne(A.a([A.og(A.bK(A.a([B.lb,A.bl(r,A.bE(A.a([A.M3(r,40,new A.l7("assets/logo.png"))],p),B.o,B.eJ,B.m),B.k,r,r,r,r,r,r,r,r,r,r),B.lb,A.bl(r,A.bE(A.a([A.Qd("assets/dashboard.svg",!1,!1,!1,!1,r,"Dashboard")],p),B.o,B.n,B.m),B.k,r,r,r,r,r,r,r,r,r,r),B.aG,A.LI(new A.agA(s),r,r,r,o),B.aG,A.LI(new A.agB(s),r,r,r,o),B.aG,A.LI(new A.agC(s),r,r,r,o),B.aG,A.LI(new A.agD(s),r,r,r,o),B.c5,B.aG,B.Oa,B.lb],p),B.o,B.n,B.m),!1)],p)),B.k,r,r,r,r,r,r,r,r,r,r),q)}}
 A.agA.prototype={
 $1(a){var s=a.ax
 s=(s===0||s===1||s===2)&&!0
@@ -88255,7 +88255,7 @@ o=A.aA(a,p,o).w
 s=A.cR(12)
 r=A.a([new A.bg(1,B.I,A.J(B.c.aJ(127.5),158,158,158),B.f,1)],t.V)
 q=t.p
-return A.awH(p,A.af1(A.bQ(A.eO(A.bl(p,new A.br(B.ID,A.ne(A.a([A.og(A.bK(A.a([A.bE(A.a([A.M3(p,40,new A.l7("logo.png"))],q),B.o,B.eJ,B.m),A.am("Sign In",p,p,p,B.ly,p,p),B.fk,B.Ze,B.cw,A.am("Email",p,p,p,B.aV,p,p),B.a_,B.Bh,B.aG,A.am("Password",p,p,p,B.aV,p,p),B.a_,B.Bg,B.aG,B.c5,B.Bo],q),B.aJ,B.eJ,B.aY),!1)],q)),p),B.k,p,p,new A.bN(B.j,p,p,s,r,p,B.U),p,o.a.b*0.8,p,p,p,p,m.a.a*0.3),p,p),n.a.b,p),!0),p,p)}}
+return A.awH(p,A.af1(A.bQ(A.eO(A.bl(p,new A.br(B.ID,A.ne(A.a([A.og(A.bK(A.a([A.bE(A.a([A.M3(p,40,new A.l7("assets/logo.png"))],q),B.o,B.eJ,B.m),A.am("Sign In",p,p,p,B.ly,p,p),B.fk,B.Ze,B.cw,A.am("Email",p,p,p,B.aV,p,p),B.a_,B.Bh,B.aG,A.am("Password",p,p,p,B.aV,p,p),B.a_,B.Bg,B.aG,B.c5,B.Bo],q),B.aJ,B.eJ,B.aY),!1)],q)),p),B.k,p,p,new A.bN(B.j,p,p,s,r,p,B.U),p,o.a.b*0.8,p,p,p,p,m.a.a*0.3),p,p),n.a.b,p),!0),p,p)}}
 A.IW.prototype={
 E(a){var s=null,r=A.yT(s,s,B.aI,s,s,s,s,s,s,new A.G(A.aA(a,s,t.w).w.a.a,48),s,s,s,s,s,new A.cg(A.cR(8),B.w),s,s,s,s,s)
 return A.KY(A.am("GET STARTED",s,s,s,B.fp,s,s),new A.a2o(),r)}}
