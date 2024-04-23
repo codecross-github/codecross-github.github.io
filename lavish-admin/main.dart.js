@@ -97907,7 +97907,7 @@ k=J.by(k).oN(k)
 k.toString
 a=A.aOw(t.a.a(k))
 a.mX()
-$.rr().vK("ADMIN",B.ag.hs(a.mX()))
+$.rr().vK("LavishAdmin",B.ag.hs(a.mX()))
 k=$.aV()
 A.fv(k)
 A.aKe(k,"/dashboard",null,t.z)}else{k=$.aV()
@@ -97951,7 +97951,7 @@ k=A.aLK(a.mX())
 k.toString
 s=9
 return A.A(l.a.bg(0,k),$async$yx)
-case 9:$.rr().vK("ADMIN",B.ag.hs(a.mX()))
+case 9:$.rr().vK("LavishAdmin",B.ag.hs(a.mX()))
 k=$.aV()
 A.fv(k)
 A.jT(k,"Message","Admin Detail Updated Successfully",B.ao,B.i,B.aJ,B.aS)
@@ -98973,7 +98973,7 @@ A.aqj.prototype={
 $0(){return B.DK},
 $S:580}
 A.aqk.prototype={
-$0(){var s,r,q=null,p="BUSINESS"
+$0(){var s,r,q=null,p="LavishAdminBusiness"
 $.aV()
 s=$.de().to.c
 if(s!=null){$.rr().vK(p,s.eO())
@@ -98985,23 +98985,24 @@ A.aql.prototype={
 $0(){return B.a0K},
 $S:582}
 A.aqm.prototype={
-$0(){var s,r,q=null
+$0(){var s,r,q=null,p="LavishAdminUser"
 $.aV()
 s=$.de().to.c
-if(s!=null){$.rr().vK("USER",s.eO())
+if(s!=null){$.rr().vK(p,s.eO())
 return new A.qS($.de().to.c,q)}else{$.rr()
-r=J.a6($.ze.bw().a,"USER")
+r=J.a6($.ze.bw().a,p)
 return new A.qS(A.aLD(B.ag.wH(0,r==null?B.ag.hs(A.aLC(B.cc,q,q,q,q,q,q,q,0,q,0,q).Nb(!0)):r,q)),q)}},
 $S:583}
 A.aqn.prototype={
 $0(){return B.Dg},
 $S:584}
 A.aqo.prototype={
-$0(){$.aV()
-var s=$.de().to.c
-if(s!=null){$.rr().vK("USERID",s)
+$0(){var s,r="LavishAdminUserId"
+$.aV()
+s=$.de().to.c
+if(s!=null){$.rr().vK(r,s)
 return new A.p4($.de().to.c,null)}else{$.rr()
-return new A.p4(J.a6($.ze.bw().a,"USERID"),null)}},
+return new A.p4(J.a6($.ze.bw().a,r),null)}},
 $S:585}
 A.aqp.prototype={
 $0(){return B.Tq},
@@ -99011,7 +99012,7 @@ ap(){return new A.a4V($.rq().$1$0(t.Dv),A.aOE(),new A.bo(null,t.am),B.j)}}
 A.a4V.prototype={
 aK(){var s,r,q=null
 this.aY()
-s=J.a6($.ze.bw().a,"ADMIN")
+s=J.a6($.ze.bw().a,"LavishAdmin")
 r=A.aOw(B.ag.wH(0,s==null?B.ag.hs(new A.By(q,q,q,q).mX()):s,q))
 this.f!==$&&A.bX()
 this.f=r},
@@ -99096,7 +99097,7 @@ A.aE8.prototype={
 $0(){var s=0,r=A.E(t.H),q
 var $async$$0=A.z(function(a,b){if(a===1)return A.B(b,r)
 while(true)switch(s){case 0:q=t.z
-if(J.a6($.ze.bw().a,"ADMIN")==null)A.aKe($.aV(),"/login",null,q)
+if(J.a6($.ze.bw().a,"LavishAdmin")==null)A.aKe($.aV(),"/login",null,q)
 else A.aKe($.aV(),"/dashboard",null,q)
 return A.C(null,r)}})
 return A.D($async$$0,r)},

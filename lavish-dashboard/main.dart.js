@@ -106726,7 +106726,7 @@ k=J.bE(k).nY(k)
 k.toString
 a=A.aSe(t.a.a(k))
 a.fQ()
-o.ay.x0("USER",B.ag.fu(a.kF(!0)))
+o.ay.x0("LavishDashboardBusiness",B.ag.fu(a.kF(!0)))
 k=$.aq()
 A.c0(k)
 A.aSV(k,"/dashboard",null,t.z)}else{k=$.aq()
@@ -106767,7 +106767,7 @@ a.a=B.b.gX(m.a.b.a)
 a.CW=a.cx=new A.ak(Date.now(),!1)
 s=8
 return A.u(J.aRZ(m,a.fQ()),$async$vS)
-case 8:n.ay.x0("USER",B.ag.fu(a.kF(!0)))
+case 8:n.ay.x0("LavishDashboardBusiness",B.ag.fu(a.kF(!0)))
 j=$.aq()
 A.c0(j)
 A.ff(j,"/registration",a,t.z)
@@ -106831,7 +106831,7 @@ k=A.pm(a.fQ())
 k.toString
 s=6
 return A.u(l.a.bk(0,k),$async$H_)
-case 6:o.ay.x0("USER",B.ag.fu(a.kF(!0)))
+case 6:o.ay.x0("LavishDashboardBusiness",B.ag.fu(a.kF(!0)))
 k=$.aq()
 A.c0(k)
 A.ff(k,"/dashboard",null,t.z)
@@ -107086,7 +107086,7 @@ case 1:return A.z(p,r)}})
 return A.B($async$GZ,r)}}
 A.aeW.prototype={
 $1(a){var s=A.aSe(t.a.a(a.jq(0)))
-this.a.ay.x0("USER",B.ag.fu(s.kF(!0)))
+this.a.ay.x0("LavishDashboardBusiness",B.ag.fu(s.kF(!0)))
 return s},
 $S:608}
 A.vB.prototype={
@@ -108347,7 +108347,7 @@ A.Af.prototype={
 H(a){return A.v9(B.Na,B.ar,null,this.c)}}
 A.ahq.prototype={}
 A.JJ.prototype={
-ghR(){var s=null,r=J.a2($.JK.bK().a,"USER")
+ghR(){var s=null,r=J.a2($.JK.bK().a,"LavishDashboardBusiness")
 return A.aSe(B.ag.El(0,r==null?B.ag.fu(A.Ea(s,0,s,s,s,s,s,s,s,s,s,s,s,B.bQ,0,s).kF(!0)):r,s))},
 x0(a,b){var s
 A.aQW().$1("Saving "+a+": "+b)
@@ -108396,12 +108396,12 @@ A.avg.prototype={
 $0(){return B.Hi},
 $S:637}
 A.avh.prototype={
-$0(){var s,r,q=null
+$0(){var s,r,q=null,p="LavishDashboardClient"
 $.aq()
 s=$.dQ().to.c
-if(s!=null){$.aWR().x0("CLIENT",s.fc())
+if(s!=null){$.aWR().x0(p,s.fc())
 return new A.t9($.dQ().to.c,q)}else{$.aWR()
-r=J.a2($.JK.bK().a,"CLIENT")
+r=J.a2($.JK.bK().a,p)
 return new A.t9(A.aXH(B.ag.El(0,r==null?B.ag.fu(new A.l0(q,q,0,0,q).kF(!0)):r,q)),q)}},
 $S:638}
 A.avi.prototype={
@@ -108974,7 +108974,7 @@ A.aMC.prototype={
 $0(){var s=0,r=A.C(t.H),q
 var $async$$0=A.y(function(a,b){if(a===1)return A.z(b,r)
 while(true)switch(s){case 0:q=t.z
-if(J.a2($.JK.bK().a,"USER")==null)A.aSV($.aq(),"/login",null,q)
+if(J.a2($.JK.bK().a,"LavishDashboardBusiness")==null)A.aSV($.aq(),"/login",null,q)
 else A.aSV($.aq(),"/dashboard",null,q)
 return A.A(null,r)}})
 return A.B($async$$0,r)},
