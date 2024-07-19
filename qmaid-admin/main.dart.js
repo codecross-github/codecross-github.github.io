@@ -104785,7 +104785,7 @@ A.acF.prototype={
 $0(){var s=0,r=A.H(t.P),q=this,p,o
 var $async$$0=A.D(function(a,b){if(a===1)return A.E(b,r)
 while(true)switch(s){case 0:p=$.Pa().j2(q.a.a)
-o=A.aYP(A.aG(["cvStatus",q.b?"approve":"reject"],t.K,t.X))
+o=A.aYP(A.aG(["cvStatus",q.b?"Available":"Reject"],t.K,t.X))
 o.toString
 s=2
 return A.I(p.a.bh(0,o),$async$$0)
@@ -105145,11 +105145,10 @@ s=A.aYz(s)
 r=$.Pn()
 s=A.kA(A.b1(s,p,p,p,r,p,p,p))
 q=o.x
-q.toString
-r=A.kA(A.b1(q,p,p,p,r,p,p,p))
+r=A.kA(A.b1(q==null?"No Email":q,p,p,p,r,p,p,p))
 q=o.d
-if(q==="approve")q=B.MB
-else q=q==="pending"?B.a4w:B.UH
+if(q==="Available")q=B.MB
+else q=q==="Pending"?B.a4w:B.UH
 return A.aU3(A.b([n,m,s,r,A.kA(q),A.kA(A.aWR(B.MF,B.MI,new A.aqD(o),new A.aqE(o),"Approve","Reject"))],t.sa))},
 ga4j(){return!1},
 ga6K(a){return J.cv(this.r)},
