@@ -104316,7 +104316,7 @@ $0(){return B.Z1},
 $S:684}
 A.asb.prototype={
 $0(){var s=null
-return new A.ya(A.aP7(),new A.ku(s,s,"admin@gmail.com","123456"),new A.b1(s,t.am),s)},
+return new A.ya(A.aP7(),new A.ku(s,s,s,s),new A.b1(s,t.am),s)},
 $S:685}
 A.asc.prototype={
 $0(){return new A.v9(null)},
