@@ -1,6 +1,6 @@
 {
-    "name": "holistic_nutrition_admin_web",
-    "short_name": "holistic_nutrition_admin_web",
+    "name": "holistic_nutrition_manager_web",
+    "short_name": "holistic_nutrition_manager_web",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
